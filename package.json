@@ -1,0 +1,34 @@
+{
+  "name": "sass-single-page-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "~2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "~6.0.0",
+    "gulp-clean": "~0.4.0",
+    "gulp-csso": "~3.0.1",
+    "gulp-if": "~2.0.2",
+    "gulp-imagemin": "~5.0.3",
+    "gulp-notify": "~3.2.0",
+    "gulp-plumber": "~1.2.0",
+    "gulp-rename": "~1.4.0",
+    "gulp-sass": "~4.0.2",
+    "gulp-sourcemaps": "~2.6.4",
+    "gulp-template": "~5.0.0",
+    "gulp-uglify": "~3.0.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vitorlmneves",
+  "license": "ISC"
+}
