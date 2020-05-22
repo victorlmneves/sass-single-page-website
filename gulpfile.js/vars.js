@@ -21,7 +21,7 @@ global.var = {
   },
 
   build: {
-    base: '/dist'
+    base: '/docs'
   },
 
   // project
@@ -33,14 +33,14 @@ global.var = {
       return `${global.var.project.base}/src`; // ./src
     },
     dest: () => {
-      return `${global.var.project.base}${global.var.build.base}`; // ./dist
+      return `${global.var.project.base}${global.var.build.base}`; // ./docs
     },
     assets: {
       src: () => {
         return `${global.var.project.src}/assets`; // ./src/assets
       },
       dest: () => {
-        return `${global.var.project.dest}/assets`; // ./dist/assets
+        return `${global.var.project.dest}/assets`; // ./docs/assets
       },
       css: () => {
         return `/css`; // /css
