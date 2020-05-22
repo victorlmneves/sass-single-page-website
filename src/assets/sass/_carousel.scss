@@ -15,6 +15,7 @@ $iconSize: 50px;
 
   @include desktop {
     height: 50vh;
+    margin-bottom: 60px;
   }
 
   &__inner {
