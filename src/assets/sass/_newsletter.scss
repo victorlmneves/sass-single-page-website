@@ -55,7 +55,6 @@
   &__button {
     @include button($blue, $white, $blue-lighter, $white);
     bottom: 1px;
-    display: flex;
     font-size: .9rem;
     font-weight: $font-weight-medium;
     height: 50px;
